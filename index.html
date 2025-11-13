@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Portafolio</div>
+        </div>
+    </header>
+
+    <main class="main-section">
+        <div class="container">
+            <!-- Sección de Proyectos (primera sección visible) -->
+            <div id="projects" class="projects-container active">
+                <h2 class="section-title">Mis Proyectos</h2>
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <div class="project-card-animated">
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="Imagenes/proyecto1.jpg" alt="Study smorter, not endlessly" onerror="this.src='https://via.placeholder.com/300x200/6c63ff/ffffff?text=Study+Smarter'">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <h3 class="project-title">Nombre del Proyecto</h3>
+                                    <div class="project-actions">
+                                        <a href="https://ejemplo-proyecto1.com" class="view-btn" target="_blank">
+                                            <span class="btn-icon">👁️</span> Ver
+                                        </a>
+                                        <a href="https://github.com/usuario/proyecto1" class="github-btn" target="_blank">
+                                            <img src="iconos/GitHub.png" alt="CSS3" class="skill-icon" onerror="this.src=''">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-tags">
+                                    <span class="project-tag corbit">CORBIT</span>
+                                    <span class="project-tag hot">HOT</span>
+                                </div>
+                                <p class="project-description">Descripcion del proyecto</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Redux</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 2 -->
+                    <div class="project-card-animated">
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="Imagenes/Ejemplo2.png" alt="Quiklearn" onerror="this.src='https://via.placeholder.com/300x200/4a44c9/ffffff?text=Quiklearn'">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <h3 class="project-title">Nombre del Proyecto</h3>
+                                    <div class="project-actions">
+                                        <a href="https://quiklearn-app.com" class="view-btn" target="_blank">
+                                            <span class="btn-icon">👁️</span> Ver
+                                        </a>
+                                        <a href="#" class="github-btn private" title="Proyecto privado">
+                                            <span class="btn-icon">🔒</span> Privado
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="project-description">Descripcion del proyecto</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">NEXT.js</span>
+                                    <span class="tech-tag">DAISY UI</span>
+                                    <span class="tech-tag">SUPABASE</span>
+                                    <span class="tech-tag">ARTIFICIAL INTELLIGENCE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 3 -->
+                    <div class="project-card-animated">
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="Imagenes/Ejemplo3.png" alt="NijASIT" onerror="this.src='https://via.placeholder.com/300x200/6c63ff/ffffff?text=NijASIT'">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <h3 class="project-title">Nombre del Proyecto</h3>
+                                    <div class="project-actions">
+                                        <a href="https://nijasit-journal.org" class="view-btn" target="_blank">
+                                            <span class="btn-icon">👁️</span> Ver
+                                        </a>
+                                        <a href="https://github.com/usuario/nijasit" class="github-btn" target="_blank">
+                                          <img src="iconos/GitHub.png" alt="CSS3" class="skill-icon" onerror="this.src=''">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="project-description">Descripcion del proyecto</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">NEXT.js</span>
+                                    <span class="tech-tag">JAVASCRIPT</span>
+                                    <span class="tech-tag">SHADCN UI</span>
+                                    <span class="tech-tag">TAILWINDESS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 4 -->
+                    <div class="project-card-animated">
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="Imagenes/Ejemplo4.png" alt="Offset Africa" onerror="this.src='https://via.placeholder.com/300x200/4a44c9/ffffff?text=Offset+Africa'">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <h3 class="project-title">Nombre del Proyecto</h3>
+                                    <div class="project-actions">
+                                        <a href="#" class="view-btn disabled">
+                                            <span class="btn-icon">👁️</span> Próximamente
+                                        </a>
+                                        <a href="#" class="github-btn private" title="Proyecto privado">
+                                            <span class="btn-icon">🔒</span> Privado
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="project-description">Descripcion del proyecto</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">D3.js</span>
+                                    <span class="tech-tag">Express</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 5 -->
+                    <div class="project-card-animated">
+                        <div class="project-content">
+                            <div class="project-image">
+                                <img src="Imagenes/Ejemplo5.png" alt="API REST" onerror="this.src='https://via.placeholder.com/300x200/6c63ff/ffffff?text=API+REST'">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <h3 class="project-title">Nombre del Proyecto</h3>
+                                    <div class="project-actions">
+                                        <a href="https://api-docs.ejemplo.com" class="view-btn" target="_blank">
+                                            <span class="btn-icon">👁️</span> Ver Docs
+                                        </a>
+                                        <a href="https://github.com/usuario/api-rest" class="github-btn" target="_blank">
+                                            <img src="iconos/GitHub.png" alt="CSS3" class="skill-icon" onerror="this.src=''">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="project-description">Descripcion del proyecto</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express</span>
+                                    <span class="tech-tag">JWT</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Barra de navegación secundaria (debajo de proyectos) -->
+            <div class="secondary-nav">
+                <button class="nav-btn" data-target="certificates">Certificados</button>
+                <button class="nav-btn" data-target="skills">Habilidades</button>
+            </div>
+
+            <!-- Carrusel de Certificados -->
+            <div id="certificates" class="carousel-container">
+                <h2 class="section-title">Mis Certificados</h2>
+                <div class="carousel-wrapper">
+                    <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
+                    <div class="carousel">
+                        <!-- Certificado 1 -->
+                        <div class="carousel-item">
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="Imagenes/Captura de pantalla_20251110_092101.png" alt="Full Stack Developer" onerror="this.src='https://via.placeholder.com/300x200/6c63ff/ffffff?text=Full+Stack'">
+                                    <div class="certificate-overlay">
+                                        <button class="download-btn" data-pdf="certificados/certificado1.pdf">
+                                            📥 Descargar PDF
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <h3 class="certificate-title">Introducción a JavaScript</h3>
+                                    <p class="certificate-issuer">Sololearn - 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Certificado 2 -->
+                        <div class="carousel-item">
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="Imagenes/Ejemplo2.png" alt="JavaScript Avanzado" onerror="this.src='https://via.placeholder.com/300x200/4a44c9/ffffff?text=JavaScript'">
+                                    <div class="certificate-overlay">
+                                        <button class="download-btn" data-pdf="certificados/certificado2.pdf">
+                                            📥 Descargar PDF
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <h3 class="certificate-title">JavaScript Avanzado</h3>
+                                    <p class="certificate-issuer">Platzi - 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Certificado 3 -->
+                        <div class="carousel-item">
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="Imagenes/Ejemplo3.png" alt="React & Redux" onerror="this.src='https://via.placeholder.com/300x200/6c63ff/ffffff?text=React+Redux'">
+                                    <div class="certificate-overlay">
+                                        <button class="download-btn" data-pdf="certificados/certificado3.pdf">
+                                            📥 Descargar PDF
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <h3 class="certificate-title">React & Redux</h3>
+                                    <p class="certificate-issuer">Coderhouse - 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Certificado 4 -->
+                        <div class="carousel-item">
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="Imagenes/Ejemplo4.png" alt="TypeScript Master" onerror="this.src='https://via.placeholder.com/300x200/4a44c9/ffffff?text=TypeScript'">
+                                    <div class="certificate-overlay">
+                                        <button class="download-btn" data-pdf="certificados/certificado4.pdf">
+                                            📥 Descargar PDF
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <h3 class="certificate-title">TypeScript Master</h3>
+                                    <p class="certificate-issuer">Udemy - 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Certificado 5 -->
+                        <div class="carousel-item">
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="Imagenes/Ejemplo5.png" alt="Node.js Expert" onerror="this.src='https://via.placeholder.com/300x200/6c63ff/ffffff?text=Node.js'">
+                                    <div class="certificate-overlay">
+                                        <button class="download-btn" data-pdf="certificados/certificado5.pdf">
+                                            📥 Descargar PDF
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="certificate-info">
+                                    <h3 class="certificate-title">Node.js Expert</h3>
+                                    <p class="certificate-issuer">Coursera - 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next" aria-label="Siguiente">&#10095;</button>
+                </div>
+            </div>
+
+            <!-- Sección de Habilidades -->
+            <div id="skills" class="carousel-container">
+                <h2 class="section-title">Mis Habilidades</h2>
+                <div class="skills-grid">
+                    <!-- Lenguajes de Programación -->
+                    <div class="skill-item">
+                        <img src="iconos/Python.png" alt="Python" class="skill-icon">
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/javascript.png" alt="JavaScript" class="skill-icon">
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/Java.png" alt="Java" class="skill-icon">
+                        <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/dart.png" alt="Dart" class="skill-icon">
+                        <span class="skill-name">Dart</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/html5.png" alt="HTML5" class="skill-icon">
+                        <span class="skill-name">HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/css3.png" alt="CSS3" class="skill-icon">
+                        <span class="skill-name">CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/flutter.png" alt="flutter" class="skill-icon">
+                        <span class="skill-name">flutter</span>
+                    </div>
+                    
+                    <!-- Bases de Datos -->
+                    <div class="skill-item">
+                        <img src="iconos/sql.png" alt="SQL" class="skill-icon">
+                        <span class="skill-name">SQL</span>
+                    </div>
+                    
+                    <!-- Tecnologías y Frameworks -->
+                    <div class="skill-item">
+                        <img src="iconos/Node.js.png" alt="Node.js" class="skill-icon">
+                        <span class="skill-name">Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/shell.png" alt="Bash" class="skill-icon">
+                        <span class="skill-name">Bash / Shell</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/Plantuml.png" alt="PlantUML" class="skill-icon">
+                        <span class="skill-name">PlantUML</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/Pynput.png" alt="Pynput" class="skill-icon">
+                        <span class="skill-name">Pynput</span>
+                    </div>
+
+                    <!-- Herramientas de Desarrollo -->
+                    <div class="skill-item">
+                        <img src="iconos/git.png" alt="Git" class="skill-icon">
+                        <span class="skill-name">Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/GitHub.png" alt="GitHub" class="skill-icon">
+                        <span class="skill-name">GitHub</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/vscode.png" alt="VS Code" class="skill-icon">
+                        <span class="skill-name">VS Code</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/Cursor.png" alt="Cursor" class="skill-icon">
+                        <span class="skill-name">Cursor</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/linux.png" alt="Linux" class="skill-icon">
+                        <span class="skill-name">Linux</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="iconos/Burp Suite.png" alt="Burp Suite" class="skill-icon">
+                        <span class="skill-name">Burp Suite</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN DE CONTACTO Y SOBRE MÍ -->
+            <section class="contact-section">
+                <div class="contact-header">
+                    <h1 class="contact-name">No se que poner aqui, pero algo pondre</h1>
+                    <p class="contact-tagline">Creando <strong>éxtasis digital</strong> con código, creatividad (¡y un poco de cafeína, por supuesto!).</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="about-section">
+                        <h3 class="contact-subtitle">Sobre Mí</h3>
+                        <div class="about-content">
+                            <p>Soy un desarrollador apasionado por crear experiencias digitales excepcionales. Mi enfoque combina el arte del código con la creatividad para dar vida a ideas innovadoras.</p>
+                            <p>Cuando no estoy programando, probablemente esté explorando nuevas tecnologías, tomando una taza de café o buscando inspiración para el próximo proyecto.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3 class="contact-subtitle">Ponte en Contacto</h3>
+                        <div class="contact-item">
+                            <div class="contact-icon email-icon"></div>
+                            <a href="mailto:jandyperez05@gmail.com">jandyperez05@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon linkedin-icon"></div>
+                            <a href="https://www.linkedin.com/in/jandy-perez-148614398" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon whatsapp-icon"></div>
+                            <a href="https://wa.me/qr/AOPUE42YH4GPK1" target="_blank">WhatsApp</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon fiverr-icon"></div>
+                            <a href="#" target="_blank">Fiverr</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-footer">
+                    <p>¡Gracias por visitar mi portafolio!</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="copyright">© 2025 Portafolio. Todos los derechos reservados.</span>
+                </div>
+                <div class="footer-right">
+                    <a href="#" class="footer-link">Blog</a>
+                    <a href="#" class="footer-link">CV</a>
+                    <a href="https://github.com/JandyPerez" class="footer-link">GitHub</a>
+                    <link rel="stylesheet" href="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
