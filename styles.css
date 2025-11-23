@@ -829,12 +829,42 @@ header {
     margin: 0 auto;
 }
 
-.send-message-card, .contact-info-card {
+/* MODIFIED: Se ha cambiado .send-message-card por .profile-image-card */
+.profile-image-card, .contact-info-card {
     background-color: var(--card-bg);
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
+
+/* NUEVOS ESTILOS AÑADIDOS PARA LA TARJETA DE PERFIL CON IMAGEN */
+.profile-image-card {
+    text-align: center; /* Centra el título y la imagen */
+}
+
+.profile-image-container {
+    margin: 25px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 0 15px rgba(108, 99, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.profile-image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(108, 99, 255, 0.8);
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* FIN: NUEVOS ESTILOS AÑADIDOS */
+
 
 .card-title {
     font-size: 1.5rem;
@@ -845,45 +875,7 @@ header {
     padding-bottom: 10px;
 }
 
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid var(--text-secondary);
-    background-color: var(--darker-bg);
-    color: var(--text-color);
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.contact-form input:focus, .contact-form textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
-}
-
-.contact-form textarea {
-    height: 150px;
-    resize: vertical;
-}
-
-.send-btn {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    width: 100%;
-}
-
-.send-btn:hover {
-    background-color: var(--secondary-color);
-    transform: translateY(-2px);
-}
+/* Estilos para el formulario de contacto ELIMINADOS */
 
 /* Contact Info Card */
 .contact-info-card {
